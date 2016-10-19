@@ -3,8 +3,8 @@
     "command": "${workspaceRoot}/node_modules/.bin/babel",
     "isShellCommand": true,
     "tasks": [{
-        "args": ["--presets", "es2015,react", "jsx", "--out-dir", "commonjs",
-            "&&", "${workspaceRoot}/node_modules/.bin/webpack", "commonjs/app.js", "es5/app.js"],
+        "args": ["--presets", "es2015,react", "jsx", "--out-dir", "amd",
+            "&&", "${workspaceRoot}/node_modules/.bin/webpack", "amd/app.js", "es5/app.js"],
         "taskName": "babelify",
         "suppressTaskName": true,
         "isBuildCommand": true,
