@@ -13,7 +13,13 @@ define(["react", "react-dom", "./bazinga"], function (_react, _reactDom, _bazing
 		};
 	}
 
-	const spread = (first, ...rest) => first.concat(rest);
+	var spread = function spread(first) {
+		for (var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+			rest[_key - 1] = arguments[_key];
+		}
+
+		return first.concat(rest);
+	};
 
 	_reactDom2.default.render(_react2.default.createElement(_bazinga2.default, null), document.getElementById("app"));
 });

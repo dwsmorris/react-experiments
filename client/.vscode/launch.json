@@ -5,7 +5,7 @@
 			"name": "Launch Chrome against localhost, with sourcemaps",
 			"type": "chrome",
 			"request": "launch",
-			"url": "file:////E:/react/basic-example/client/es5/index.html",
+			"url": "file:////E:/react/react-experiments/client/es6-amd/index.html",
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}"
 		},

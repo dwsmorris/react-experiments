@@ -15,9 +15,11 @@ define(["exports", "react", "react-dom"], function (exports, _react, _reactDom) 
     };
   }
 
-  exports.default = () => _react2.default.createElement(
-    "div",
-    null,
-    "Bazinga5!"
-  );
+  exports.default = function () {
+    return _react2.default.createElement(
+      "div",
+      null,
+      "Bazinga5!"
+    );
+  };
 });
