@@ -6,5 +6,5 @@ const spread = (first, ...rest) => first.concat(rest);
 
 ReactDOM.render(
 	<Bazinga/>,
-	document.getElementById("app-container")
+	document.getElementById("app")
 );

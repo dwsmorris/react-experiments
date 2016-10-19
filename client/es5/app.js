@@ -44,31 +44,31 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(1), __webpack_require__(34), __webpack_require__(172)], __WEBPACK_AMD_DEFINE_RESULT__ = function (_react, _reactDom, _bazinga) {
+		"use strict";
 
-	var _react = __webpack_require__(1);
+		var _react2 = _interopRequireDefault(_react);
 
-	var _react2 = _interopRequireDefault(_react);
+		var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _reactDom = __webpack_require__(34);
+		var _bazinga2 = _interopRequireDefault(_bazinga);
 
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	var _bazinga = __webpack_require__(172);
-
-	var _bazinga2 = _interopRequireDefault(_bazinga);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var spread = function spread(first) {
-		for (var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-			rest[_key - 1] = arguments[_key];
+		function _interopRequireDefault(obj) {
+			return obj && obj.__esModule ? obj : {
+				default: obj
+			};
 		}
 
-		return first.concat(rest);
-	};
+		var spread = function spread(first) {
+			for (var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				rest[_key - 1] = arguments[_key];
+			}
 
-	_reactDom2.default.render(_react2.default.createElement(_bazinga2.default, null), document.getElementById("app-container"));
+			return first.concat(rest);
+		};
+
+		_reactDom2.default.render(_react2.default.createElement(_bazinga2.default, null), document.getElementById("app"));
+	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ },
 /* 1 */
@@ -21441,29 +21441,31 @@
 /* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(1), __webpack_require__(34)], __WEBPACK_AMD_DEFINE_RESULT__ = function (exports, _react, _reactDom) {
+	  "use strict";
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	  Object.defineProperty(exports, "__esModule", {
+	    value: true
+	  });
 
-	var _react = __webpack_require__(1);
+	  var _react2 = _interopRequireDefault(_react);
 
-	var _react2 = _interopRequireDefault(_react);
+	  var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _reactDom = __webpack_require__(34);
+	  function _interopRequireDefault(obj) {
+	    return obj && obj.__esModule ? obj : {
+	      default: obj
+	    };
+	  }
 
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = function () {
-	  return _react2.default.createElement(
-	    "div",
-	    null,
-	    "Bazinga2!"
-	  );
-	};
+	  exports.default = function () {
+	    return _react2.default.createElement(
+	      "div",
+	      null,
+	      "Bazinga3!"
+	    );
+	  };
+	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }
 /******/ ]);
