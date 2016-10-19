@@ -19,7 +19,7 @@ define(["exports", "react", "react-dom"], function (exports, _react, _reactDom) 
     return _react2.default.createElement(
       "div",
       null,
-      "Bazinga3!"
+      "Bazinga4!"
     );
   };
 });
