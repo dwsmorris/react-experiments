@@ -21,6 +21,8 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "requirejs": "^2.3.2",
+    "sparkler": "^0.3.5",
+    "sweet.js": "^2.2.1",
     "uglify-js": "^2.7.3",
     "webpack": "^1.13.2"
   },
