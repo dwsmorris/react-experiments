@@ -6,7 +6,9 @@
         "args": ["/c",
             "${workspaceRoot}/node_modules/.bin/babel", "--presets", "react", "jsx", "--out-dir", "es6-amd", "&&", 
             "${workspaceRoot}/node_modules/.bin/babel", "--presets", "es2015,react", "jsx", "--out-dir", "es5-amd", "&&",             
-            "${workspaceRoot}/node_modules/.bin/webpack", "es5-amd/app.js", "dist/app.js"],
+            "${workspaceRoot}/node_modules/.bin/webpack", "es5-amd/app.js", "dist/app.js", "&&",
+            "${workspaceRoot}/node_modules/.bin/uglifyjs", "dist/app.js", "-o", "dist/app.js", "--compress", "--mangle"
+        ],
         "taskName": "babelify",
         "suppressTaskName": true,
         "isBuildCommand": true,

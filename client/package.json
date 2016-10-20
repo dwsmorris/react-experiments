@@ -21,9 +21,12 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "requirejs": "^2.3.2",
+    "uglify-js": "^2.7.3",
     "webpack": "^1.13.2"
   },
   "babel": {
-    "plugins": ["transform-es2015-modules-amd"]
+    "plugins": [
+      "transform-es2015-modules-amd"
+    ]
   }
 }
